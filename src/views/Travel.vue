@@ -386,7 +386,7 @@ export default defineComponent({
         const data = {
           customData: {},
         };
-        post("/shuaigang/v1/diary/getDiary", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           // console.log(res);
           let { code, customData } = res;
           if (code === 200) {
@@ -398,7 +398,7 @@ export default defineComponent({
         const data = {
           customData: {},
         };
-        post("/shuaigang/v1/year/getYearList", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           // console.log(res);
           let { code, customData } = res;
           if (code === 200) {
@@ -416,7 +416,7 @@ export default defineComponent({
         const data = {
           customData: {},
         };
-        post("/shuaigang/v1/travel/getCityAndTravel", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           // console.log(res);
           let { code, customData } = res;
           if (code === 200) {

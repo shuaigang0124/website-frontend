@@ -264,7 +264,7 @@ export default defineComponent({
           customData: {},
         };
         // post请求
-        post("/shuaigang/v1/myFile/getMyFile", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           let { code, customData } = res;
           if (code === 200) {
             state.tableData = customData;
@@ -275,7 +275,7 @@ export default defineComponent({
         const data = {
           customData: state.insertData,
         };
-        post("/shuaigang/v1/myFile/insertMyFile", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           let { code, message } = res;
           if (code === 200) {
             ElMessage.success(message);
@@ -292,7 +292,7 @@ export default defineComponent({
           customData: state.updateData,
         };
         // post请求
-        post("/shuaigang/v1/myFile/updateMyFile", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           let { code, message } = res;
           if (code === 200) {
             ElMessage.success(message);
@@ -308,7 +308,7 @@ export default defineComponent({
             ids: [id],
           },
         };
-        post("/shuaigang/v1/myFile/deleteMyFile", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           let { code, message } = res;
           if (code === 200) {
             ElMessage.success(message);

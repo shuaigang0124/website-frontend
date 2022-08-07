@@ -272,7 +272,7 @@ export default defineComponent({
         const data = {
           customData: state.addWishForm,
         };
-        post("/shuaigang/v1/wishList/insertWishList", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           let { code, message, customData } = res;
           if (code === 200) {
             ElMessage.success(message);
@@ -288,7 +288,7 @@ export default defineComponent({
             fuzzySearch: state.fuzzySearchData,
           },
         };
-        post("/shuaigang/v1/wishList/getWishList", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           // console.log(res);
           let { customData } = res;
           state.wishListData = customData;
@@ -298,7 +298,7 @@ export default defineComponent({
         const data = {
           customData: state.wishListForm,
         };
-        post("/shuaigang/v1/wishList/updateWishList", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           // console.log(res);
           let { code, message } = res;
           if (code === 200) {
@@ -315,7 +315,7 @@ export default defineComponent({
             ids: [id],
           },
         };
-        post("/shuaigang/v1/wishList/deleteWishList", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           // console.log(res);
           let { code, message } = res;
           if (code === 200) {

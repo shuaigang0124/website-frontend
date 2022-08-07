@@ -292,7 +292,7 @@ export default defineComponent({
         const data = {
           customData: state.user,
         };
-        post("/shuaigang/v1/user/insertUser", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           let { code, message, customData } = res;
           if (code === 200) {
             ElMessage.success(message);
@@ -313,7 +313,7 @@ export default defineComponent({
           },
         };
         // post请求
-        post("/shuaigang/v1/city/updateCityValue", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           let { code } = res;
           if (code === 200) {
             console.log("城市用户数据添加成功");
@@ -329,7 +329,7 @@ export default defineComponent({
             email: state.user.email,
           },
         };
-        post("/custom/v1/email/sendMailCode", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           let { code, message, customData } = res;
           if (code === 200) {
             ElMessage.success(message);
@@ -347,7 +347,7 @@ export default defineComponent({
             validCode: state.validCode,
           },
         };
-        post("/custom/v1/email/checkMailCode", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           let { code, message, customData } = res;
           if (code === 200) {
             ElMessage.success(message);

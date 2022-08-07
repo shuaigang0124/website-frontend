@@ -701,7 +701,7 @@ export default defineComponent({
             serviceId: state.updateData.id,
           },
         };
-        post("/shuaigang/v1/userKudos/findByUserIdAndServiceId", data).then(
+        post("xx/xx/xx/xx", data).then(
           (res: any) => {
             let { customData } = res;
             state.clickState = customData;
@@ -717,7 +717,7 @@ export default defineComponent({
           },
         };
         // post请求
-        post("/shuaigang/v1/user/getUserDetails", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           let { code, message, customData } = res;
           if (code === 200) {
             state.user = customData;
@@ -732,7 +732,7 @@ export default defineComponent({
           },
         };
         // post请求
-        post("/authentication/logout", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           // console.log(res);
           let { code, message } = res;
           if (code === 200) {
@@ -748,7 +748,7 @@ export default defineComponent({
           },
         };
         // post请求
-        post("/shuaigang/v1/sharing/getSharingDetail", data).then(
+        post("xx/xx/xx/xx", data).then(
           (res: any) => {
             let { code, customData } = res;
             if (code === 200) {
@@ -773,7 +773,7 @@ export default defineComponent({
           },
         };
         // post请求
-        post("/shuaigang/v1/sharing/updateByCondition", data).then(
+        post("xx/xx/xx/xx", data).then(
           (res: any) => {
             let { code, message, customData } = res;
             if (code == 4006) {
@@ -801,7 +801,7 @@ export default defineComponent({
           },
         };
         // post请求
-        post("/shuaigang/v1/sharing/getSharingByTag", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           let { code, message, customData } = res;
           if (code === 200) {
             state.sharingLink = customData;
@@ -817,7 +817,7 @@ export default defineComponent({
           customData: state.insertData,
         };
         // post请求
-        post("/shuaigang/v1/sharingComment/releaseComment", data).then(
+        post("xx/xx/xx/xx", data).then(
           (res: any) => {
             let { code, message, customData } = res;
             if (code === 200) {
@@ -854,7 +854,7 @@ export default defineComponent({
           },
         };
         // post请求
-        post("/shuaigang/v1/sharingComment/findAllComment", data).then(
+        post("xx/xx/xx/xx", data).then(
           (res: any) => {
             let { code, customData } = res;
             if (code === 200) {
@@ -870,7 +870,7 @@ export default defineComponent({
           customData: state.form,
         };
         // post请求
-        post("/shuaigang/v1/sharingComment/releaseComment", data).then(
+        post("xx/xx/xx/xx", data).then(
           (res: any) => {
             let { code, message } = res;
             if (code === 200) {
@@ -905,7 +905,7 @@ export default defineComponent({
           },
         };
         // post请求
-        post("/shuaigang/v1/sharingComment/updateComment", data).then(
+        post("xx/xx/xx/xx", data).then(
           (res: any) => {
             let { code, message, customData } = res;
             if (code == 4006) {
@@ -935,7 +935,7 @@ export default defineComponent({
           },
         };
         // post请求
-        post("/shuaigang/v1/sharingComment/deleteComment", data).then(
+        post("xx/xx/xx/xx", data).then(
           (res: any) => {
             let { code, message, customData } = res;
             if (code === 200) {

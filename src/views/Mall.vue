@@ -1274,7 +1274,7 @@ export default defineComponent({
           },
         };
         // post请求
-        post("/lottery/v1/attendance/insertAttendance", data).then(
+        post("xx/xx/xx/xx", data).then(
           (res: any) => {
             let { code, message } = res;
             if (code === 200) {
@@ -1296,7 +1296,7 @@ export default defineComponent({
           },
         };
         // post请求
-        post("/lottery/v1/attendance/getUserAttendance", data).then(
+        post("xx/xx/xx/xx", data).then(
           (res: any) => {
             // console.log(res);
             let { code, message, customData } = res;
@@ -1324,7 +1324,7 @@ export default defineComponent({
           },
         };
         // post请求
-        post("/lottery/v1/attendance/getUserDay", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           // console.log(res);
           let { code, message, customData } = res;
           if (code === 200) {
@@ -1345,7 +1345,7 @@ export default defineComponent({
           },
         };
         // post请求
-        post("/lottery/v1/userPoints/getUserPiont", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           // console.log(res);
           let { code, message, customData } = res;
           if (code === 200) {
@@ -1365,7 +1365,7 @@ export default defineComponent({
           },
         };
         // post请求
-        post("/lottery/v1/lottery/insertLottery", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           // console.log(res);
           let { code, message, customData } = res;
           if (code === 200) {
@@ -1384,7 +1384,7 @@ export default defineComponent({
           },
         };
         // post请求
-        post("/lottery/v1/activity/getActivity", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           // console.log(res);
           let { code, message, customData } = res;
           if (code === 200) {
@@ -1400,7 +1400,7 @@ export default defineComponent({
           },
         };
         // post请求
-        post("/lottery/v1/lottery/getWinner", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           // console.log(res);
           let { code, message, customData } = res;
           if (code === 200) {
@@ -1419,7 +1419,7 @@ export default defineComponent({
           },
         };
         // post请求
-        post("/lottery/v1/mall/getMallTrade", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           // console.log(res);
           let { code, message, customData } = res;
           if (code === 200) {
@@ -1434,7 +1434,7 @@ export default defineComponent({
           customData: state.tradeConvertData,
         };
         // post请求
-        post("/lottery/v1/mall/tradeConvert", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           let { code, message } = res;
           if (code === 200) {
             ElMessage.success(message);
@@ -1464,7 +1464,7 @@ export default defineComponent({
           },
         };
         // post请求
-        post("/lottery/v1/forRecord/getForRecordList", data).then(
+        post("xx/xx/xx/xx", data).then(
           (res: any) => {
             // console.log(res);
             let { code, message, customData } = res;
@@ -1492,7 +1492,7 @@ export default defineComponent({
       // 上传预览图
       uploadImg(formData) {
         // post请求
-        post("/shuaigang/v1/upload/uploadImg", formData).then((res: any) => {
+        post("xx/xx/xx/xx", formData).then((res: any) => {
           let { code, message, customData } = res;
           if (code === 200) {
             // console.log(res);
@@ -1505,7 +1505,7 @@ export default defineComponent({
       // 上传预览图
       uploadImg2(formData) {
         // post请求
-        post("/shuaigang/v1/upload/uploadImg", formData).then((res: any) => {
+        post("xx/xx/xx/xx", formData).then((res: any) => {
           let { code, message, customData } = res;
           if (code === 200) {
             // console.log(res);
@@ -1524,7 +1524,7 @@ export default defineComponent({
           },
         };
         // post请求
-        post("/shuaigang/v1/upload/deleteFile", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           let { code, message, customData } = res;
           // console.log(res);
         });
@@ -1542,7 +1542,7 @@ export default defineComponent({
           },
         };
         // post请求
-        post("/lottery/v1/mall/insertMallTrade", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           // console.log(res);
           let { code, message, customData } = res;
           if (code === 200) {
@@ -1572,7 +1572,7 @@ export default defineComponent({
           },
         };
         // post请求
-        post("/lottery/v1/activity/insertActivity", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           // console.log(res);
           let { code, message, customData } = res;
           if (code === 200) {
@@ -1594,7 +1594,7 @@ export default defineComponent({
           },
         };
         // post请求
-        post("/lottery/v1/activity/getActivityByCondition", data).then(
+        post("xx/xx/xx/xx", data).then(
           (res: any) => {
             // console.log(res);
             let { code, message, customData } = res;
@@ -1632,7 +1632,7 @@ export default defineComponent({
           },
         };
         // post请求
-        post("/lottery/v1/forRecord/updateRecordStatus", data).then(
+        post("xx/xx/xx/xx", data).then(
           (res: any) => {
             let { code, message, customData } = res;
             if (code === 200) {

@@ -269,7 +269,7 @@ export default defineComponent({
           },
         };
         // post请求
-        post("/shuaigang/v1/user/getUserDetails", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           // console.log(res);
           let { code, customData } = res;
           if (code === 200) {
@@ -283,7 +283,7 @@ export default defineComponent({
           customData: {},
         };
         // post请求
-        post("/shuaigang/v1/link/getLink", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           // console.log(res);
           let { code, message, customData } = res;
           if (code === 200) {
@@ -300,7 +300,7 @@ export default defineComponent({
           },
         };
         // post请求
-        post("/authentication/generateToken", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           let { code, customData } = res;
           if (code === 200) {
             localStorage.setItem("token", customData.Authorization);
@@ -317,7 +317,7 @@ export default defineComponent({
           },
         };
         // post请求
-        post("/authentication/logout", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           // console.log(res);
           let { code, message } = res;
           if (code === 200) {

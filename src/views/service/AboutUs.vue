@@ -72,7 +72,7 @@ export default defineComponent({
             content,
           },
         };
-        post("/shuaigang/v1/author/updateAuthor", data).then((res: any) => {
+        post("/xxx/xxx/xxx/xxx", data).then((res: any) => {
           // console.log(res);
           let { code, message, customData } = res;
           if (code === 200 && message !== "未认证") {
@@ -91,7 +91,7 @@ export default defineComponent({
         const data = {
           customData: {},
         };
-        post("/shuaigang/v1/author/getAuthor", data).then((res: any) => {
+        post("/xxx/xxx/xxx/xxx", data).then((res: any) => {
           // console.log(res);
           let { code, customData } = res;
           state.author.content = customData[0].content;

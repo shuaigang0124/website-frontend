@@ -484,7 +484,7 @@ export default defineComponent({
             },
           };
           // post请求
-          post("/shuaigang/v1/message/findAllMessage", data).then(
+          post("xx/xx/xx/xx", data).then(
             (res: any) => {
               let { code, message, customData } = res;
               if (message === "OK" && code === 200) {
@@ -526,7 +526,7 @@ export default defineComponent({
           customData: state.saveData,
         };
         // post请求
-        post("/shuaigang/v1/message/releaseMessage", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           let { code, message, customData } = res;
           if (code === 4006) {
             state.form.userId = "";
@@ -563,7 +563,7 @@ export default defineComponent({
           customData: state.form,
         };
         // post请求
-        post("/shuaigang/v1/message/releaseMessage", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           let { code, message, customData } = res;
           if (code === 4006) {
             state.form.userId = "";
@@ -605,7 +605,7 @@ export default defineComponent({
           },
         };
         // post请求
-        post("/shuaigang/v1/message/findAllMessage", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           let { code, message, customData } = res;
           if (code === 200) {
             state.messageData = customData;
@@ -621,7 +621,7 @@ export default defineComponent({
           },
         };
         // post请求
-        post("/shuaigang/v1/message/deletedMessage", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           let { code, message, customData } = res;
           if (code === 200) {
             ElMessage.success(message);

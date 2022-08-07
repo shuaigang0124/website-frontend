@@ -167,7 +167,7 @@ export default defineComponent({
           customData: state.logForm,
         };
         // post请求
-        post("/shuaigang/v1/log/insertLog", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           // console.log(res);
           let { code, message } = res;
           if (code === 200) {
@@ -187,7 +187,7 @@ export default defineComponent({
           },
         };
         // post请求
-        post("/shuaigang/v1/log/getLogList", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           // console.log(res);
           let { code, message, customData } = res;
           state.tableData = customData.resultList;

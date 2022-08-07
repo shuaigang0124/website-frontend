@@ -219,7 +219,7 @@ export default defineComponent({
           customData: state.addTagData,
         };
         // console.log(data);
-        post("/shuaigang/v1/tag/insertTag", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           let { code, message } = res;
           if (code === 200) {
             ElMessage.success(message);
@@ -235,7 +235,7 @@ export default defineComponent({
             fuzzySearch: state.fuzzySearchData,
           },
         };
-        post("/shuaigang/v1/tag/getAllBackendTag", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           // console.log(res);
           let { code, customData } = res;
           if (code === 200) {
@@ -247,7 +247,7 @@ export default defineComponent({
         const data = {
           customData: state.tagForm,
         };
-        post("/shuaigang/v1/tag/updateTag", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           let { code, message } = res;
           if (code === 200) {
             ElMessage.success("修改成功！");
@@ -264,7 +264,7 @@ export default defineComponent({
             deleted: 1,
           },
         };
-        post("/shuaigang/v1/tag/updateTag", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           let { code, message } = res;
           if (code === 200) {
             ElMessage.success(message);

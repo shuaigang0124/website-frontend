@@ -13,8 +13,7 @@ module.exports = {
                 '/gsg': {
                     //对应自己的 跨域地址 即请求的后端地址
                     // 服务器
-                    // target: 'http://shuaigang.top:8090',
-                    target: 'http://175.178.9.64:8090',
+                    target: 'http://111.111.111.111:8888',
                     ws: true,   //代理websokets
                     changeOrigin: true,  //是否跨域，虚拟的站点需要更管origin
                     pathRewrite: {
@@ -27,7 +26,7 @@ module.exports = {
                 '/api': {
                     //对应自己的 跨域地址 即请求的后端地址
                     // 本地开发
-                    target: 'http://localhost:8090',
+                    target: 'http://localhost:8888',
                     ws: true,   //代理websokets
                     changeOrigin: true,  //是否跨域，虚拟的站点需要更管origin
                     pathRewrite: {
@@ -35,33 +34,5 @@ module.exports = {
                     },
                 },
             },
-
-        // 正式环境
-        // proxy: {
-        //     '/gsg': {
-        //         //对应自己的 跨域地址 即请求的后端地址
-        //         // 服务器
-        //         target: 'http://shuaigang.top:8090',
-        //         ws: true,   //代理websokets
-        //         changeOrigin: true,  //是否跨域，虚拟的站点需要更管origin
-        //         pathRewrite: {
-        //             '^/gsg': '',
-        //         },
-        //     },
-        // },
-
-        // 本地环境
-        // proxy: {
-        //     '/api': {
-        //         //对应自己的 跨域地址 即请求的后端地址
-        //         // 本地开发
-        //         target: 'http://localhost:8090',
-        //         ws: true,   //代理websokets
-        //         changeOrigin: true,  //是否跨域，虚拟的站点需要更管origin
-        //         pathRewrite: {
-        //             '^/api': '',
-        //         },
-        //     },
-        // },
     },
 }

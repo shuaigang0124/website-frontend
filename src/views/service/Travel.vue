@@ -261,7 +261,7 @@ export default defineComponent({
           customData: state.addTravelForm,
         };
         // console.log(data);
-        post("/shuaigang/v1/travel/insertTravel", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           let { code, message } = res;
           if (code === 200) {
             ElMessage.success(message);
@@ -277,7 +277,7 @@ export default defineComponent({
             fuzzySearch: state.fuzzySearchData,
           },
         };
-        post("/shuaigang/v1/travel/getTravel", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           // console.log(res);
           let { code, customData } = res;
           if (code === 200) {
@@ -290,7 +290,7 @@ export default defineComponent({
         const data = {
           customData: {},
         };
-        post("/shuaigang/v1/city/getCityData", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           // console.log(res);
           let { code, customData } = res;
           if (code === 200) {
@@ -302,7 +302,7 @@ export default defineComponent({
         const data = {
           customData: state.travelFrom,
         };
-        post("/shuaigang/v1/travel/updateTravel", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           let { code, message } = res;
           if (code === 200) {
             ElMessage.success(message);
@@ -318,7 +318,7 @@ export default defineComponent({
             ids: [id],
           },
         };
-        post("/shuaigang/v1/travel/deleteTravel", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           let { code, message } = res;
           if (code === 200) {
             ElMessage.success(message);

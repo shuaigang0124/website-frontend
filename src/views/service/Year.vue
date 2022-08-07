@@ -241,7 +241,7 @@ export default defineComponent({
           customData: state.addDiaryForm,
         };
         // console.log(data);
-        post("/shuaigang/v1/year/insertYear", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           let { code, message } = res;
           if (code === 200) {
             ElMessage.success(message);
@@ -257,7 +257,7 @@ export default defineComponent({
             fuzzySearch: state.fuzzySearchData,
           },
         };
-        post("/shuaigang/v1/year/getYearList", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           // console.log(res);
           let { code, customData } = res;
           if (code === 200) {
@@ -270,7 +270,7 @@ export default defineComponent({
         const data = {
           customData: state.diaryForm,
         };
-        post("/shuaigang/v1/year/updateYear", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           let { code, message } = res;
           if (code === 200) {
             ElMessage.success(message);
@@ -286,7 +286,7 @@ export default defineComponent({
             ids: [id],
           },
         };
-        post("/shuaigang/v1/year/deleteYear", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           let { code, message } = res;
           if (code === 200) {
             ElMessage.success(message);

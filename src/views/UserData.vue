@@ -553,7 +553,7 @@ export default defineComponent({
           },
         };
         // post请求
-        post("/shuaigang/v1/user/getUserDetails", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           // console.log(res);
           let { code, message, customData } = res;
           if (code === 200) {
@@ -572,7 +572,7 @@ export default defineComponent({
           customData: {},
         };
         // post请求
-        post("/shuaigang/v1/city/getCityData", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           // console.log(res);
           let { code, message, customData } = res;
           if (code === 200) {
@@ -590,7 +590,7 @@ export default defineComponent({
           },
         };
         // post请求
-        post("/authentication/logout", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           // console.log(res);
           let { code, message, customData } = res;
           if (code === 200) {
@@ -604,7 +604,7 @@ export default defineComponent({
           customData: state.user,
         };
         // post请求
-        post("/shuaigang/v1/user/updateUser", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           let { code, message, customData } = res;
           if (code === 200) {
             ElMessage.success(message);
@@ -630,7 +630,7 @@ export default defineComponent({
           },
         };
         // post请求
-        post("/shuaigang/v1/city/updateCityValue", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           let { code, message, customData } = res;
           if (code === 200) {
             request.getList(state.user.id);
@@ -643,7 +643,7 @@ export default defineComponent({
         // 请求体数据
 
         // post请求
-        post("/shuaigang/v1/upload/updateAvatar", formData).then((res: any) => {
+        post("xx/xx/xx/xx", formData).then((res: any) => {
           let { code, message, customData } = res;
           if (code === 200) {
             // console.log(res);
@@ -664,7 +664,7 @@ export default defineComponent({
           },
         };
         // post请求
-        post("/shuaigang/v1/user/updateAvatar", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           let { code, message } = res;
           if (code === 200) {
             request.getList(state.user.id);
@@ -689,7 +689,7 @@ export default defineComponent({
           },
         };
         // post请求
-        post("/shuaigang/v1/user/checkPwd", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           let { code, message, customData } = res;
           if (code === 200) {
             request.updatePwd();
@@ -713,7 +713,7 @@ export default defineComponent({
           },
         };
         // post请求
-        post("/shuaigang/v1/user/updatePwd", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           let { code, message } = res;
           if (code === 200) {
             ElMessage.success(message);

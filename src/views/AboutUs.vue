@@ -166,7 +166,7 @@ export default defineComponent({
         const data = {
           customData: {},
         };
-        post("/shuaigang/v1/author/getAuthor", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           let { customData } = res;
           state.author.content = customData[0].content;
           state.author.id = customData[0].id;
@@ -181,7 +181,7 @@ export default defineComponent({
             serviceId: state.author.id.toString(),
           },
         };
-        post("/shuaigang/v1/userKudos/findByUserIdAndServiceId", data).then(
+        post("xx/xx/xx/xx", data).then(
           (res: any) => {
             let { customData } = res;
             state.clickState = customData;
@@ -197,7 +197,7 @@ export default defineComponent({
             userId: state.userId,
           },
         };
-        post("/shuaigang/v1/author/updateAuthor", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           let { code, message } = res;
           if (code === 200) {
             ElMessage.success(message);

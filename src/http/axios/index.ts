@@ -63,11 +63,6 @@ instance.interceptors.response.use(
     // }
 )
 
-
-
-// let token =localStorage.getItem('token')
-// console.log(token);
-// process.env.NODE_ENV === 'production' ? "http://shuaigang.top:8090" : "/gsg"
 let baseUrl = ""
 if (process.env.NODE_ENV === 'production') {
     // 生产环境

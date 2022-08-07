@@ -258,7 +258,7 @@ export default defineComponent({
         const data = {
           customData: state.linkData,
         };
-        post("/shuaigang/v1/link/insertLink", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           let { code, message } = res;
           if (code === 200) {
             state.dialogVisible2 = false;
@@ -273,7 +273,7 @@ export default defineComponent({
         const data = {
           customData: state.linkForm,
         };
-        post("/shuaigang/v1/link/updateLink", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           let { code, message } = res;
           if (code === 200) {
             ElMessage.success(message);
@@ -291,7 +291,7 @@ export default defineComponent({
           },
         };
         // post请求
-        post("/shuaigang/v1/link/deleteLink", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           let { code, message } = res;
           if (code === 200) {
             ElMessage.success(message);
@@ -309,7 +309,7 @@ export default defineComponent({
           },
         };
         // post请求
-        post("/shuaigang/v1/link/getLink", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           let { code, customData } = res;
           state.tableData = customData;
         });

@@ -246,7 +246,7 @@ export default defineComponent({
           },
         };
         // post请求
-        post("/shuaigang/v1/sharing/getBackendAllSharing", data).then(
+        post("xx/xx/xx/xx", data).then(
           (res: any) => {
             // console.log(res);
             let { code, message, customData } = res;
@@ -266,7 +266,7 @@ export default defineComponent({
           },
         };
         // console.log(state.updateData);
-        post("/shuaigang/v1/sharing/updateByCondition", data).then(
+        post("xx/xx/xx/xx", data).then(
           (res: any) => {
             let { code, message } = res;
             if (code === 200) {
@@ -285,7 +285,7 @@ export default defineComponent({
             deleted: 1,
           },
         };
-        post("/shuaigang/v1/sharing/updateByCondition", data).then(
+        post("xx/xx/xx/xx", data).then(
           (res: any) => {
             let { code, message } = res;
             if (code === 200) {

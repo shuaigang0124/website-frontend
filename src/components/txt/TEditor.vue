@@ -122,7 +122,7 @@ export default defineComponent({
             formData.append("type", 6);
 
             // post请求
-            post("/shuaigang/v1/upload/uploadFile", formData).then(
+            post("/xxx/xxx/xxx/xxx", formData).then(
               (res: any) => {
                 let { code,message, customData } = res;
                 if (message === "OK" && code === 200) {
@@ -146,7 +146,7 @@ export default defineComponent({
             formData.append("multipartFile", files);
             formData.append("type", 6);
             // post请求
-            post("/shuaigang/v1/upload/uploadFile", formData).then(
+            post("/xxx/xxx/xxx/xxx", formData).then(
               (res: any) => {
                 let { code, message, customData } = res;
                 if (message === "OK" && code === 200) {

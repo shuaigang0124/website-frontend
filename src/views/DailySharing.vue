@@ -378,7 +378,7 @@ export default defineComponent({
               },
             };
             // post请求
-            post("/shuaigang/v1/sharing/getSharing", data).then((res: any) => {
+            post("xx/xx/xx/xx", data).then((res: any) => {
               let { code, message, customData } = res;
               // console.log(res);
               if (message === "OK" && code === 200) {
@@ -427,7 +427,7 @@ export default defineComponent({
           },
         };
         // post请求
-        post("/shuaigang/v1/sharing/getSharing", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           let { code, message, customData } = res;
           // console.log(res);
           if (code === 200) {
@@ -452,7 +452,7 @@ export default defineComponent({
           },
         };
         // post请求
-        post("/shuaigang/v1/sharing/getSharing", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           let { code, message, customData } = res;
           // console.log(res);
           if (code === 200) {
@@ -471,7 +471,7 @@ export default defineComponent({
           },
         };
         // post请求
-        post("/shuaigang/v1/sharing/updateByCondition", data).then(
+        post("xx/xx/xx/xx", data).then(
           (res: any) => {
             let { code, message } = res;
             if (code === 200) {
@@ -496,7 +496,7 @@ export default defineComponent({
           },
         };
         // post请求
-        post("/shuaigang/v1/sharing/updateByCondition", data).then(
+        post("xx/xx/xx/xx", data).then(
           (res: any) => {
             let { code } = res;
             if (code === 200) {
@@ -522,7 +522,7 @@ export default defineComponent({
           customData: {},
         };
         // post请求
-        post("/shuaigang/v1/tag/getAllTag", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           let { code, message, customData } = res;
           if (code === 200) {
             state.tags = customData;

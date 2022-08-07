@@ -354,7 +354,7 @@ export default defineComponent({
           customData: {},
         };
         // post请求
-        post("/shuaigang/v1/notice/getNotice", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           // console.log(res);
           let { code, message, customData } = res;
           if (code === 200) {

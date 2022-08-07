@@ -189,7 +189,7 @@ export default defineComponent({
         customData: {},
       };
       //调用接口返回数据
-      post("/shuaigang/v1/log/getLog", data).then((res: any) => {
+      post("xx/xx/xx/xx", data).then((res: any) => {
         //打印接收值
         let { code, message, customData } = res;
         state.log = customData;

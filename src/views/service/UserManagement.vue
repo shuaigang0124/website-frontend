@@ -402,7 +402,7 @@ export default defineComponent({
             ids: [id],
           },
         };
-        post("/shuaigang/v1/user/deleteUser", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           // console.log(res);
           let { code, message, customData } = res;
           if (message === "OK" && code === 200) {
@@ -432,7 +432,7 @@ export default defineComponent({
         };
         // console.log(data);
 
-        post("/shuaigang/v1/user/getAllUser", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           // console.log(res);
           let { code, message, customData } = res;
           state.tableData = customData.resultList;
@@ -443,7 +443,7 @@ export default defineComponent({
         const data = {
           customData: state.editForm,
         };
-        post("/shuaigang/v1/user/updateUser", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           // console.log(res);
           let { code, message } = res;
           if (code === 200) {
@@ -459,7 +459,7 @@ export default defineComponent({
           customData: state.userData,
         };
         // console.log(data);
-        post("/shuaigang/v1/user/insertUser", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           // console.log(res);
           let { code, message } = res;
           if (code === 200) {

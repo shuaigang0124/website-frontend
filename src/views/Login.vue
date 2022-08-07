@@ -294,7 +294,7 @@ export default defineComponent({
           },
         };
         // post请求
-        post("/authentication/form", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           let { code, message, customData } = res;
           if (code === 200) {
             // console.log(customData.Authorization);

@@ -266,7 +266,7 @@ export default defineComponent({
           },
         };
         // post请求
-        post("/shuaigang/v1/upload/deleteFile", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           let { code, message, customData } = res;
           // console.log(res);
         });
@@ -300,7 +300,7 @@ export default defineComponent({
       // 上传预览图
       uploadImg(formData) {
         // post请求
-        post("/shuaigang/v1/upload/uploadImg", formData).then((res: any) => {
+        post("xx/xx/xx/xx", formData).then((res: any) => {
           let { code, message, customData } = res;
           if (message === "OK" && code === 200) {
             // console.log(res);
@@ -316,7 +316,7 @@ export default defineComponent({
           },
         };
         // post请求
-        post("/shuaigang/v1/sharing/getUpdateDetail", data).then(
+        post("xx/xx/xx/xx", data).then(
           (res: any) => {
             let { code, message, customData } = res;
             if (code === 200) {
@@ -346,7 +346,7 @@ export default defineComponent({
         };
         // console.log(state.releaseData),
           // post请求
-          post("/shuaigang/v1/sharing/updateByCondition", data).then(
+          post("xx/xx/xx/xx", data).then(
             (res: any) => {
               let { code, message, customData } = res;
               if (code === 200) {
@@ -366,7 +366,7 @@ export default defineComponent({
           customData: {},
         };
         // post请求
-        post("/shuaigang/v1/tag/getAllTag", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           let { code, message, customData } = res;
           if (code === 200) {
             state.tags = customData;
@@ -382,7 +382,7 @@ export default defineComponent({
           },
         };
         // post请求
-        post("/shuaigang/v1/user/getUserDetails", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           let { code, message, customData } = res;
           if (code === 200) {
             state.user = customData;
@@ -398,7 +398,7 @@ export default defineComponent({
           },
         };
         // post请求
-        post("/authentication/logout", data).then((res: any) => {
+        post("xx/xx/xx/xx", data).then((res: any) => {
           // console.log(res);
           let { code, message, customData } = res;
           if (code === 200) {
